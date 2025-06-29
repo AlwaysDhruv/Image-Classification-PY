@@ -148,17 +148,11 @@ while True:
             if s=='y':
                 name = input("Name For It :- ")
                 folder_path = filedialog.askdirectory(title="Select Save Location")
-                folder_path = os.path.join(folder_path,name + "_Object_Torch_Model")
+                folder_path = os.path.join(folder_path,name + "_Model")
                 os.makedirs(folder_path,exist_ok=True)
                 path1 = os.path.join(folder_path,name + ".keras")
-                path2 = os.path.join(folder_path,name + ".weights.h5")
-                path3 = os.path.join(folder_path,name + "_Data.npy")
-                path4 = os.path.join(folder_path,name + "_Labels.npy")
                 mapp = os.path.join(folder_path,name + ".json")
                 model.save(path1)
-                model.save_weights(path2)
-                np.save(path3,data)
-                np.save(path4,labels)
                 with open(mapp, "w") as f:
                     json.dump(mapping, f)
                 print(f"Model Are Stored In {folder_path} With {name} Name")
