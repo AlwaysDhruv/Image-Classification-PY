@@ -10,6 +10,5 @@ I have developed in C++ Also.
 
 https://github.com/AlwaysDhruv/Image-Classification-CPP
 =========
-The Exe FIle are on the working It will upload soon..
 
 Thanks!!
