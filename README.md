@@ -1,4 +1,4 @@
-# Image Classification
+# Image Classification using CNNs
 
 ## About The Project
 
