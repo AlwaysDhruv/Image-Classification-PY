@@ -1,4 +1,4 @@
-# ObjectTorch: Image Classification Project
+# Image Classification
 
 ## About The Project
 
